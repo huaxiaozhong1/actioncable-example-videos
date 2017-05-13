@@ -1,0 +1,2 @@
+class VnamesController < ApplicationController
+end

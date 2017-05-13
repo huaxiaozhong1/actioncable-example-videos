@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   resources :messages do
     resources :comments
+    resources :vnames
   end
 
   root 'examples#index'

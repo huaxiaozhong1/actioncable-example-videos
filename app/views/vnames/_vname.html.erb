@@ -1,0 +1,10 @@
+  <p> </p>
+
+  <%= v_name = vname.title %>
+
+  <%= video_tag "#{v_name}",
+    type: "video/mp4",
+    controls: true,
+    loop: true,
+    autobuffer: true,
+    autoplay: true %>
